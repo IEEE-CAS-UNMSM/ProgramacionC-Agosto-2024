@@ -1,0 +1,23 @@
+| Especificador de Formato  | Descripción                                            | Tipos de Datos Soportados                              |
+|---------------------------|--------------------------------------------------------|--------------------------------------------------------|
+| `%c`                      | Carácter                                               | `char`, `unsigned char`                                |
+| `%d`                      | Entero con signo                                       | `short`, `unsigned short`, `int`, `long`               |
+| `%e` o `%E`               | Notación científica de valores flotantes               | `float`, `double`                                      |
+| `%f`                      | Punto flotante                                         | `float`                                                |
+| `%g` o `%G`               | Similar a `%e` o `%E`                                  | `float`, `double`                                      |
+| `%hi`                     | Entero con signo (corto)                               | `short`                                                |
+| `%hu`                     | Entero sin signo (corto)                               | `unsigned short`                                       |
+| `%i`                      | Entero con signo                                       | `short`, `unsigned short`, `int`, `long`               |
+| `%l`, `%ld`, o `%li`      | Entero con signo (largo)                               | `long`                                                 |
+| `%lf`                     | Punto flotante                                         | `double`                                               |
+| `%Lf`                     | Punto flotante                                         | `long double`                                          |
+| `%lu`                     | Entero sin signo                                       | `unsigned int`, `unsigned long`                        |
+| `%lli`, `%lld`            | Entero con signo (muy largo)                           | `long long`                                            |
+| `%llu`                    | Entero sin signo (muy largo)                           | `unsigned long long`                                   |
+| `%o`                      | Representación octal de un entero                      | `short`, `unsigned short`, `int`, `unsigned int`, `long` |
+| `%p`                      | Dirección de un puntero a `void`                       | `void *`                                               |
+| `%s`                      | Cadena de caracteres                                   | `char *`                                               |
+| `%u`                      | Entero sin signo                                       | `unsigned int`, `unsigned long`                        |
+| `%x` o `%X`               | Representación hexadecimal de un entero sin signo      | `short`, `unsigned short`, `int`, `unsigned int`, `long` |
+| `%n`                      | No imprime nada                                        |                                                        |
+| `%%`                      | Imprime el carácter `%`                                |                                                        |
