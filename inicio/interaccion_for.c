@@ -17,5 +17,5 @@ int main(void)
 /*
 Colocar en la terminal:
 gcc -o interaccion_for interaccion_for.c
-Se define despues del -o el archivo de salida (.exe) y despues, el archivo de entrada 
+./interaccion_for
 */
